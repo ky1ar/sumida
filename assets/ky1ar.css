@@ -263,16 +263,30 @@ header h1 {
 }
 .sec-6 ul li::after {
     content: "";
-
+    width: 1px;
+    background-color: #CBD5E1;
+    height: 1.5rem;
+    position: absolute;
+    right: 0px;
+    top: 14px;
+}
+.sec-6 ul li:last-child::after {
+    content: none;
 }
 .sec-6 ul li.active {
     background-color: #4F46E5;
     color: #fff;
     border-radius: 0.5rem;
 }
+.sec-6 ul li.active::after {
+    content: none;
+}
 .sec-6 ul li.disabled {
     background-color: #E2E8F0;
     color: #94A3B8;
+}
+.sec-6 ul li.disabled::after {
+    content: none;
 }
 .sec-6 ul li span {
     font-size: 0.875rem;
