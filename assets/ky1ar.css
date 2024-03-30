@@ -267,7 +267,7 @@ header h1 {
     background-color: #CBD5E1;
     height: 1.5rem;
     position: absolute;
-    right: 0px;
+    right: -1px;
     top: 14px;
 }
 .sec-6 ul li:last-child::after {
@@ -296,4 +296,32 @@ header h1 {
     font-size: 1.125rem;
     font-weight: 600;
     line-height: 1.5rem;
+}
+/****************************************************/
+.sec-7 {
+
+}
+.sec-7 .box {
+
+}
+.sec-7 .box .title {
+
+}
+.sec-7 .box .title h2 {
+
+}
+.sec-7 .box .title p {
+
+}
+.sec-7 ul {
+
+}
+.sec-7 ul li {
+
+}
+.sec-7 ul li.active {
+
+}
+.sec-7 ul li.disabled {
+
 }
