@@ -38,6 +38,7 @@ body {
     width: 100%;
     margin: 0 auto;
     max-width: 31rem;
+    height: 100vh;
 }
 /****************************************************/
 header {
@@ -197,7 +198,6 @@ header h1 {
     color: #334155;
 }
 /****************************************************/
-
 .sec-5 .box {
     display: flex;
     justify-content: space-between;
@@ -219,3 +219,7 @@ header h1 {
     font-size: 1.125rem;
     font-weight: 600;
 }
+/****************************************************/
+
+
+
