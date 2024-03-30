@@ -39,7 +39,7 @@ body {
     margin: 0 auto;
     max-width: 31rem;
 }
-
+/****************************************************/
 header {
     border-bottom: 1px solid var(--clr6);
 }
@@ -48,7 +48,7 @@ header .banner {
     height: 5.5rem;
     position: relative;
 }
-header .logo{
+header .logo {
     height: 4rem;
     width: 4rem;
     border-radius: 4rem;
@@ -56,7 +56,12 @@ header .logo{
     bottom: -2rem;
     left: 1.5rem;
 }
-header h1{
+header .hug {
+    top: 1rem;
+    position: absolute;
+    right: 1rem;
+}
+header h1 {
     padding: 1rem 1.5rem;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
@@ -64,6 +69,7 @@ header h1{
     margin: 0;
     margin-top: 1rem;
 }
+/****************************************************/
 .sec-2 {
     display: flex;
     border-bottom: 1px solid var(--clr6);
@@ -133,6 +139,7 @@ header h1{
 .sec-3 ul li.active {
     background-color: var(--clr4);
 }
+/****************************************************/
 .sec-4  {
     padding: 1.5rem;
 }
@@ -188,4 +195,16 @@ header h1{
 }
 .sec-4 ul li b {
     color: #334155;
+}
+/****************************************************/
+.sec-5  {
+    padding: 1.5rem;
+}
+.sec-5 .box img {
+}
+.sec-5 .box h2 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
 }
