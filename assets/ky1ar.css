@@ -298,30 +298,55 @@ header h1 {
     line-height: 1.5rem;
 }
 /****************************************************/
-.sec-7 {
 
-}
 .sec-7 .box {
-
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--clr6);
+    gap: 0.75rem;
 }
 .sec-7 .box .title {
-
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
 }
 .sec-7 .box .title h2 {
-
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 0;
 }
 .sec-7 .box .title p {
-
+    margin: 0;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
 }
 .sec-7 ul {
-
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 .sec-7 ul li {
-
+    border: 1px solid #CBD5E1;
+    border-radius: 0.5rem;
+    margin: 0;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.5rem;
+    text-align: center;
+    box-shadow: 0 1px rgb(128 124 120 / 15%);
 }
 .sec-7 ul li.active {
-
+    border: 1px solid #4F46E5;
+    background-color: #E0E7FF;
 }
 .sec-7 ul li.disabled {
-
+    border: 1px solid #F1F5F9;
+    background-color: #F1F5F9;
+    color: #94A3B8;
+    box-shadow: none;
 }
