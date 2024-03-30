@@ -197,16 +197,19 @@ header h1 {
     color: #334155;
 }
 /****************************************************/
-.sec-5  {
-    padding: 1.5rem;
-}
+
 .sec-5 .box {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--clr6);
 }
 .sec-5 .box .left {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    gap: 0.75rem;
 }
 .sec-5 .box img {
 }
