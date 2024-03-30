@@ -200,6 +200,14 @@ header h1 {
 .sec-5  {
     padding: 1.5rem;
 }
+.sec-5 .box {
+    display: flex;
+    justify-content: space-between;
+}
+.sec-5 .box .left {
+    display: flex;
+    justify-content: space-between;
+}
 .sec-5 .box img {
 }
 .sec-5 .box h2 {
