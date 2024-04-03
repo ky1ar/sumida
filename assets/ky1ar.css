@@ -485,7 +485,7 @@ header h1 {
     bottom: -2rem;
     left: calc(50% - 2rem);
 }
-.finish .banner h1 {
+.finish h1 {
     padding: 1rem 1.5rem;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
