@@ -361,6 +361,9 @@ header h1 {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    border-bottom: 1px solid var(--clr6);
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 .sec-8 label {
     color: #64748B;
@@ -397,6 +400,64 @@ header h1 {
 .sec-8 .terms p a {
     color: #334155;
 }
+.sec-8 .complete {
+    border-radius: 0.375rem;
+    background-color: #4F46E5;
+    line-height: 1.5rem;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.75rem;
+    font-family: 'Poppins', sans-serif;
+}
+.sec-8 .account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.25rem;
+    color: #334155;
+}
+.sec-8 .account p {
+    margin: 0;
+}
+.sec-8 .account p a {
+    font-weight: 600;
+    color: #4e46dc;
+}
+.sec-8 .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.sec-8 .bottom .button {
+    border: 1px solid #94A3B8;
+    display: flex;
+    padding: 0.6rem 1rem;
+    border-radius: 0.375rem;
+    position: relative;
+    cursor: pointer;
+}
+.sec-8 .bottom .button img {
+    position: absolute;
+    left: 1rem;
+}
+.sec-8 .bottom .button span {
+    flex: 1;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    color: #334155;
+}
+
+
+
+
+
+
+
+
 
 
 
