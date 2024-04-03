@@ -432,7 +432,6 @@ header h1 {
     gap: 0.75rem;
 }
 .sec-8 .bottom .button {
-    border: 1px solid #94A3B8;
     display: flex;
     padding: 0.6rem 1rem;
     border-radius: 0.375rem;
