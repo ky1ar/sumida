@@ -450,6 +450,61 @@ header h1 {
     color: #334155;
     font-weight: 600;
 }
+/****************************************************/
+.finish {
+    border-bottom: 1px solid var(--clr6);
+}
+.finish .banner {
+    position: relative;
+    background-color: #0F172A;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    padding-top: 3rem;
+}
+.finish .banner span {
+    color: #94A3B8;
+    font-size: 0.875rem;
+    letter-spacing: 0.15rem;
+    font-weight: 600;
+}
+.finish .banner h2 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.finish .banner .logo {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 4rem;
+    position: absolute;
+    bottom: -2rem;
+    left: calc(50% - 2rem);
+}
+.finish .banner h1 {
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    margin: 0;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
