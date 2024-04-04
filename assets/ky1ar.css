@@ -602,6 +602,7 @@ header h1 {
 .sec-9 .top .whatsapp .left {
     display: flex;
     gap: 0.5rem;
+    align-items: center;
 }
 .sec-9 .top .whatsapp .left span {
     display: flex;
